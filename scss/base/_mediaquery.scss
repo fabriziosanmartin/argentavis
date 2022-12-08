@@ -1,0 +1,89 @@
+
+@media screen and (max-width:1400px) {
+    .paquete .paquete-contenedor {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .bienvenidos {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:710px) {
+    header {
+        height: auto;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .galeria .galeria-contenedor {
+        flex-direction: row
+    }
+}
+
+@media screen and (max-width:950px) {
+    .galeria .galeria-contenedor div {
+        height: 100%;
+        width: 250%;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .galeria h2 {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:690px) {
+    .galeria .galeria-contenedor div {
+        height: 50%;
+        width: 150%;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .galeria .galeria-contenedor div {
+        height: 100%;
+        width: 100%;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+    }
+}
