@@ -1,4 +1,5 @@
 @import "../base/variables";
+
 main {
     grid-area: main;
 }
@@ -40,7 +41,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin: 50px 150px 50px 150px;
-    grid-area: bienvenidos;
+    
 
     .bienvenidos-contenedor{
         padding: 30px;
@@ -48,6 +49,17 @@ main {
             font-size: 35px;
             text-align: center;
         }  
+        p{
+            font-size: nth($font-size, 2);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 100%;
+            span{
+                font-size: nth($font-size, 2);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-bottom: 100%;
+                color: nth($colores, 3);
+            }
+        }
     }
     .img-contenedor{
     display: flex;

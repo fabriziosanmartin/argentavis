@@ -36,7 +36,8 @@ header {
             li {
                 margin: 10px;
                 a{
-                    &:hover{
+                    
+                    &:hover {
                         color: nth($colores, 2);
                     }
                 }                  
