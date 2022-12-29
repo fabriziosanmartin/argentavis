@@ -87,3 +87,41 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width:710px) {
+    .grid-contenedor {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-items {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .item-1 {
+        grid-column: span 2;
+    }
+
+    .item-3 {
+        grid-row: span 2;
+    }
+
+    .item-9 {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .grid-contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-items {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .item-3 {
+        grid-row: span 2;
+    }
+}
