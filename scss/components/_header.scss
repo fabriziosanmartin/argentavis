@@ -8,11 +8,12 @@ header {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding: 30px;
     box-sizing: border-box;
     grid-area: header;
+
     a {
         text-decoration: none;
         color: nth($colores, 1);
@@ -21,26 +22,28 @@ header {
         animation-duration: 0.5s;
         animation-timing-function: ease-in-out;
         animation-direction: initial;
-        animation-delay: 0.5s;       
-        h1 {
-            font-size: nth($font-size, 6);
-            span {
-                color: nth($colores, 1);          
-            }
+        animation-delay: 0.5s;
+
+        img {
+            height: 50px;
+            transform: translateY(-8px);
         }
     }
-    nav {
-        ul {
-            list-style: none;
-            display: flex;
-            li {
-                margin: 10px;
-                a{
-                    
-                    &:hover {
-                        color: nth($colores, 2);
-                    }
-                }                  
+}
+
+nav {
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            margin: 10px;
+
+            a {
+
+                &:hover {
+                    color: nth($colores, 2);
+                }
             }
         }
     }
